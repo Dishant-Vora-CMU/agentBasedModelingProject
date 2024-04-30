@@ -6,7 +6,7 @@
 
 ### Project Contents
 - **AnyLogic Simulation Files**: Contains three comprehensive AnyLogic model files that simulate the dynamic interactions between agents representing workers, corporations, and government.
-- **Video Recording**: A detailed video walkthrough of the simulation, demonstrating how different inputs affect outcomes and showcasing real-time agent interactions.
+- **Video Recording**: A detailed video walkthrough of the simulation, demonstrating how different inputs affect outcomes and showcasing real-time agent interactions. Available for viewing [here](https://drive.google.com/drive/folders/1N9xBEU1LFBVmiLWU8AggQqGZ-Q6EKG3v?usp=sharing).
 - **Presentation Slides**: A PowerPoint presentation summarizing the objectives, methodologies, key findings, and implications of the simulation results.
 - **Final Report**: An extensive document providing a detailed analysis of the simulation design, implementation, results, and theoretical frameworks that support the findings.
 
