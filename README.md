@@ -12,6 +12,7 @@
 
 ### Detailed Descriptions
 #### AnyLogic Simulation Files
+Please run all the files together, the main file is named as the Phase-2-Worker-Final(1).alp
 The simulation models are designed to replicate complex socio-economic interactions and test various scenarios under different AI integration strategies:
 - **Worker Model**: Focuses on employment transitions, reskilling efforts, and adaptation to automation.
 - **Corporate Model**: Examines the impact of AI on business operations, productivity, and workforce composition.
