@@ -7,7 +7,7 @@
 <AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.9.0.202404161236" AlpVersion="8.9.0">
 <Model>
 	<Id>1712608997988</Id>
-	<Name><![CDATA[Phase-2-Worker_Final的副本]]></Name>
+	<Name><![CDATA[Phase-2-Worker_Final (1)]]></Name>
 	<EngineVersion>6</EngineVersion>
 	<JavaPackageName><![CDATA[phase_1]]></JavaPackageName>
 	<ModelTimeUnit><![CDATA[Day]]></ModelTimeUnit>
@@ -61,8 +61,8 @@
 						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 					</StepDurationCode>
 					<SpaceType>CONTINUOUS</SpaceType>
-					<WidthCode><![CDATA[500]]></WidthCode>
-					<HeightCode><![CDATA[500]]></HeightCode>
+					<WidthCode><![CDATA[200]]></WidthCode>
+					<HeightCode><![CDATA[200]]></HeightCode>
 					<ZHeightCode><![CDATA[0]]></ZHeightCode>
 					<ColumnsCountCode><![CDATA[100]]></ColumnsCountCode>
 					<RowsCountCode><![CDATA[100]]></RowsCountCode>
@@ -147,7 +147,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[20]]></Code>
+							<Code><![CDATA[0]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1714339169542</Id>
@@ -172,7 +172,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[20]]></Code>
+							<Code><![CDATA[0]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1714339172510</Id>
@@ -196,7 +196,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[20]]></Code>
+							<Code><![CDATA[0]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1714339174566</Id>
@@ -401,43 +401,34 @@ return average;]]></Body>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1714446738451</Id>
-					<Name><![CDATA[government]]></Name>
-					<X>-270</X><Y>90</Y>
+					<Id>1714446740940</Id>
+					<Name><![CDATA[corporation]]></Name>
+					<X>-270</X><Y>150</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<PresentationId>1714446739785</PresentationId>
+					<PresentationId>1714446743309</PresentationId>
 					<ActiveObjectClass>
-						<PackageName><![CDATA[aiworkforce]]></PackageName>
-						<ClassName><![CDATA[Government]]></ClassName>
+						<PackageName><![CDATA[nonlinea]]></PackageName>
+						<ClassName><![CDATA[Corporation]]></ClassName>
 					</ActiveObjectClass>
 					<GenericParameterSubstitute>
 						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[aiworkforce]]></PackageName>
-							<ClassName><![CDATA[Government]]></ClassName>
-							<ItemName><![CDATA[1714330693652]]></ItemName>
+							<PackageName><![CDATA[nonlinea]]></PackageName>
+							<ClassName><![CDATA[Corporation]]></ClassName>
+							<ItemName><![CDATA[1490786130229]]></ItemName>
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
-							<Name><![CDATA[Economy]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[Economy]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
 							<Name><![CDATA[AI_Policy]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[AI_Policy]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
-							<Name><![CDATA[AI_Public_Opinion]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[AI_Public_Opinion]]></Code>
-							</Value>
+							<Name><![CDATA[Cognitive]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[Creative]]></Name>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -481,34 +472,43 @@ return average;]]></Body>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1714446740940</Id>
-					<Name><![CDATA[corporation]]></Name>
-					<X>-270</X><Y>150</Y>
+					<Id>1714501340523</Id>
+					<Name><![CDATA[government]]></Name>
+					<X>-270</X><Y>220</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<PresentationId>1714446743309</PresentationId>
+					<PresentationId>1714501346437</PresentationId>
 					<ActiveObjectClass>
-						<PackageName><![CDATA[nonlinea]]></PackageName>
-						<ClassName><![CDATA[Corporation]]></ClassName>
+						<PackageName><![CDATA[aiworkforce]]></PackageName>
+						<ClassName><![CDATA[Government]]></ClassName>
 					</ActiveObjectClass>
 					<GenericParameterSubstitute>
 						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[nonlinea]]></PackageName>
-							<ClassName><![CDATA[Corporation]]></ClassName>
-							<ItemName><![CDATA[1490786130229]]></ItemName>
+							<PackageName><![CDATA[aiworkforce]]></PackageName>
+							<ClassName><![CDATA[Government]]></ClassName>
+							<ItemName><![CDATA[1714330693652]]></ItemName>
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[AI_Policy]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[AI_Policy]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
-							<Name><![CDATA[Cognitive]]></Name>
+							<Name><![CDATA[Economy]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Economy]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
-							<Name><![CDATA[Creative]]></Name>
+							<Name><![CDATA[AI_Public_Opinion]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[AI_Public_Opinion]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -1204,33 +1204,14 @@ return average;]]></Body>
 					</DataItem>
     			</PieChart>
 				<EmbeddedObjectPresentation>
-					<Id>1714446739785</Id>
-					<Name><![CDATA[government_presentation]]></Name>
-					<X>0</X><Y>-90</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
-					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
-					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
-					<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
-					<Latitude>0.0</Latitude>
-					<Longitude>0.0</Longitude>
-				</EmbeddedObjectPresentation>
-				<EmbeddedObjectPresentation>
 					<Id>1714446743309</Id>
 					<Name><![CDATA[corporation_presentation]]></Name>
-					<X>-750</X><Y>300</Y>
+					<X>0</X><Y>2000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
 					<EmbeddedIcon>false</EmbeddedIcon>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
@@ -1311,12 +1292,45 @@ return average;]]></Body>
 						<RelativeWidth>0.8</RelativeWidth>
 					</Bars>
     			</StackChart>
+				<EmbeddedObjectPresentation>
+					<Id>1714501346437</Id>
+					<Name><![CDATA[government_presentation]]></Name>
+					<X>20</X><Y>990</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
+					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
+					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
+					<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
+					<Latitude>0.0</Latitude>
+					<Longitude>0.0</Longitude>
+				</EmbeddedObjectPresentation>
 			</Presentation>
 
 				</Level>
 				<Level>
 					<Id>1714341189888</Id>
 					<Name><![CDATA[level1]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
+
+
+				</Level>
+				<Level>
+					<Id>1714503779031</Id>
+					<Name><![CDATA[level2]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -1430,7 +1444,7 @@ return average;]]></Body>
 				<Variable Class="PlainVariable">
 					<Id>1714173805893</Id>
 					<Name><![CDATA[creativeWorkVar]]></Name>
-					<X>20</X><Y>50</Y>
+					<X>-120</X><Y>50</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1445,7 +1459,7 @@ return average;]]></Body>
 				<Variable Class="PlainVariable">
 					<Id>1714347922723</Id>
 					<Name><![CDATA[cognitiveWorkVar]]></Name>
-					<X>20</X><Y>80</Y>
+					<X>-120</X><Y>80</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1460,7 +1474,7 @@ return average;]]></Body>
 				<Variable Class="PlainVariable">
 					<Id>1714418482137</Id>
 					<Name><![CDATA[color]]></Name>
-					<X>20</X><Y>110</Y>
+					<X>-120</X><Y>110</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1475,7 +1489,7 @@ return average;]]></Body>
 				<Variable Class="Parameter">
 					<Id>1714354568900</Id>
 					<Name><![CDATA[Cognitive]]></Name>
-					<X>20</X><Y>20</Y>
+					<X>-250</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1496,7 +1510,7 @@ return average;]]></Body>
 				<Variable Class="Parameter">
 					<Id>1714354687050</Id>
 					<Name><![CDATA[Creative]]></Name>
-					<X>100</X><Y>20</Y>
+					<X>-250</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1517,7 +1531,7 @@ return average;]]></Body>
 				<Variable Class="Parameter">
 					<Id>1714411498384</Id>
 					<Name><![CDATA[Economy]]></Name>
-					<X>170</X><Y>20</Y>
+					<X>-250</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1538,7 +1552,7 @@ return average;]]></Body>
 				<Variable Class="Parameter">
 					<Id>1714411509541</Id>
 					<Name><![CDATA[AI_Policy]]></Name>
-					<X>250</X><Y>20</Y>
+					<X>-250</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1559,7 +1573,7 @@ return average;]]></Body>
 				<Variable Class="Parameter">
 					<Id>1714411551766</Id>
 					<Name><![CDATA[AI_Public_Opinion]]></Name>
-					<X>330</X><Y>20</Y>
+					<X>-250</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1580,7 +1594,7 @@ return average;]]></Body>
 				<Variable Class="Parameter">
 					<Id>1714416267868</Id>
 					<Name><![CDATA[Index]]></Name>
-					<X>460</X><Y>20</Y>
+					<X>-250</X><Y>190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -1969,7 +1983,7 @@ return average;]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1714416311420</Id>
 					<Name><![CDATA[functionIndex]]></Name>
-					<X>530</X><Y>20</Y>
+					<X>-150</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2048,8 +2062,8 @@ return average;]]></Body>
 	<RelativeAccuracy>1.0E-5</RelativeAccuracy>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
-		<Width>1410</Width>
-		<Height>850</Height>
+		<Width>1650</Width>
+		<Height>1000</Height>
 	</Frame>
 	<Database>
 		<Logging>false</Logging>
