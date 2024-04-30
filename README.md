@@ -53,8 +53,26 @@ The report includes:
 
 ### Acknowledgments
 - **Team Members**: Contributions from all team members are recognized here.
-- **Academic Supervisor**: Prof. [Name], for guidance and oversight throughout the project.
+- **Academic Supervisor**: Prof. [Anand Rao], for guidance and oversight throughout the project.
 - **AnyLogic Support**: For software support and resources that facilitated the development of the simulation.
 
 ### References
 - Comprehensive references are listed in the final report, providing a scholarly foundation for the project’s methodologies and conclusions.
+
+### Final Report
+The report provides an in-depth narrative and analysis of the entire project, from conception to findings. It outlines the simulation's purpose, the theoretical frameworks employed, the results obtained from the simulation runs, and the implications of these results. You can access and review the complete final report through the following link:
+
+📄 [AI Futures: The Workforce Odyssey - Final Report](https://docs.google.com/document/d/19hod2dLO3iWr-YZ9x4hw0zMdeKQ20FBi00-qMkQyee4/edit?usp=sharing)
+
+The report includes:
+- **Introduction and Motivation**: Contextualizes the need for the simulation and its relevance in current AI research.
+- **Literature Review**: Summarizes existing research on AI’s impact on the workforce.
+- **Methodological Framework**: Describes the agent-based modeling approach, key assumptions, and the design of the simulation environment.
+- **Results and Analysis**: Details the outcomes of various simulation scenarios and interprets the data.
+- **Conclusions and Recommendations**: Provides strategic insights for stakeholders and suggests areas for further research.
+
+### Acknowledgments
+- **Team Members**: Contributions from all team members are recognized here.
+- **Academic Supervisor**: Prof. [Anand Rao], for guidance and oversight throughout the project.
+- **AnyLogic Support**: For software support and resources that facilitated the development of the simulation.
+
