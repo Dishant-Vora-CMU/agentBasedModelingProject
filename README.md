@@ -40,7 +40,7 @@ The report includes:
 - **Conclusions and Recommendations**: Provides strategic insights for stakeholders and suggests areas for further research.
 
 ### Tools Used
-- **AnyLogic 8.7.7**: Primary simulation software used for modeling and running the simulation. Available for download at [AnyLogic's official website](https://www.anylogic.com).
+- **AnyLogic 8.9.0**: Primary simulation software used for modeling and running the simulation. Available for download at [AnyLogic's official website](https://www.anylogic.com).
 
 ### Running the Simulation
 1. **Install AnyLogic**: Ensure that AnyLogic is installed on your computer.
